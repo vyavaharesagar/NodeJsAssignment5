@@ -13,7 +13,7 @@ router.post('/addOrder',orderController.addOrder)
 router.get("/enterOrder",orderController.enterOrder)
 router.get("/getOrders",orderController.getOrders)
 router.get("/orderDashboard",orderController.orderDashboard)
-// router.get("/sendEmail/:email",orderController.sendEmail)
+router.get("/sendEmail/:email",orderController.sendEmail)
 
 module.exports = router;
 
